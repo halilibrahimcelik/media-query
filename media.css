@@ -84,6 +84,39 @@ width: 35%;
     width: 20%;
 }
 
-@media screen {
+@media screen  and  (max-width:990px) {
     
+
+.row div{
+    width: 50%;
+   
+}
+
+
+}
+@media screen  and  (max-width:600px) {
+    
+    .row{
+    display:flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex: 1;
+
+}
+
+.row div{
+    width: 100%;
+   
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+.navbar a{
+    text-align: center;
+}
+
 }
