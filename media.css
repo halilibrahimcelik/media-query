@@ -85,16 +85,21 @@ width: 35%;
 }
 
 @media screen  and  (max-width:990px) {
-    
+body{
+    background-color: var( --açık-kırmızı);
+}
 
 .row div{
     width: 50%;
-   
+    
 }
 
 
 }
 @media screen  and  (max-width:600px) {
+    body{
+        background-color: var( --acik-sari);
+    }
     
     .row{
     display:flex;
